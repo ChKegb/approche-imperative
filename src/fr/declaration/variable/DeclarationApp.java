@@ -1,7 +1,7 @@
 package fr.declaration.variable;
 
 import java.util.Scanner;
-
+// TP3 les declarations 
 public class DeclarationApp {
 
 	public static void main(String[] args) {
