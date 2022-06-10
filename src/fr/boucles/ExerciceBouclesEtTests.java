@@ -1,4 +1,7 @@
 package fr.boucles;
+
+import java.util.Arrays;
+
 //BOUCLES COMBINEES AVEC DES TESTS
 public class ExerciceBouclesEtTests {
 
@@ -6,13 +9,26 @@ public class ExerciceBouclesEtTests {
 		// TODO Auto-generated method stub
 
 		int[] array = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4} ;
+		
 		//Afficher l’ensemble des éléments du tableau grâce à une boucle
 		for( int i=0;i< array.length;i++) {
 			System.out.println(array[i]);
 		}
+		// autre maniere Afficher l’ensemble des éléments du tableau grâce à une boucle foreach
+		 for( int i : array ){
+			System.out.println(i);
+			
+		}	
+			
 		
-		
-		
+		//Afficher l’ensemble des éléments dans l’ordre inverse du tableau
+		   System.out.println(" l'inverse de tableau: ");
+		   for(int i=0;i< array.length/2; i++) {
+			   int tmp = array[i];
+			   array[i] = array[array.length-i-1];
+			   array[array.length-i-1] = tmp;
+			   System.out.println(Arrays.toString(array));
+		   }
 		
 	}
 	
