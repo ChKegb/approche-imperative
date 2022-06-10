@@ -6,7 +6,9 @@ public class ExerciceTableauEntier {
 		// TODO Auto-generated method stub
 
 		//declaration des tableaux 
-				int tab[]= {1,2,3,4,5,6,7,8,9,10};
+		
+				  int tab[]= {1,2,3,4,5,6,7,8,9,10};
+				 
 				
 				//afficher les tableaux
 				System.out.println(tab[0]);
@@ -19,6 +21,7 @@ public class ExerciceTableauEntier {
 				System.out.println(tab.length);
 				//Affichez le dernier élément du tableau en utilisant la propriété length
 				System.out.println(tab[tab.length-1]);
+				
 
 	}
 
