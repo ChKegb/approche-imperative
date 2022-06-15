@@ -1,26 +1,33 @@
 package fr.boucles;
-//PARCOURS D’UN TABLEAU D’ENTIERS
+//PARCOURS Dï¿½UN TABLEAU Dï¿½ENTIERS
 public class ExerciceTableauEntier {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//declaration des tableaux 
+		//DÃ©clarez un tableau dâ€™entiers contenant tous les entiers de 1 Ã  10
 		
-				  int tab[]= {1,2,3,4,5,6,7,8,9,10};
-				 
+		int[] tab= {1,2,3,4,5,6,7,8,9,10};
+				  
+		//Affichez le premier Ã©lÃ©ment du tableau
+		
+		System.out.println(tab[0]);
+		
+		//Affichez la longueur du tableau en utilisant la propriÃ©tÃ© length
+		
+		System.out.println(tab.length);
+		
+		//Affichez le dernier Ã©lÃ©ment du tableau en utilisant la propriÃ©tÃ© length
+		
+		System.out.println(tab[tab.length-1]);
+		
+		//Modifiez la valeur de lâ€™Ã©lÃ©ment dâ€™index 4 et donnez lui la valeur 8.		
+		
+		tab[4]=8;
 				
-				//afficher les tableaux
-				System.out.println(tab[0]);
-				//Modifiez la valeur de l’élément d’index 4 et donnez lui la valeur 8.
-				tab[4]=8;
-				
-				// afficher le premier élément du tableau
-				System.out.println(tab[4]);
-				//Affichez la longueur du tableau en utilisant la propriété length
-				System.out.println(tab.length);
-				//Affichez le dernier élément du tableau en utilisant la propriété length
-				System.out.println(tab[tab.length-1]);
+		for(int i=0;i<tab.length;i++) {
+			System.out.println(tab[i]);
+		}
 				
 
 	}

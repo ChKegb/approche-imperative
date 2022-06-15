@@ -1,6 +1,7 @@
 package fr.declaration.variable;
 
 import java.util.Scanner;
+
 // TP3 les declarations 
 public class DeclarationApp {
 
@@ -11,27 +12,35 @@ public class DeclarationApp {
 		Scanner console = new Scanner(System.in);
 		System.out.println("Veuillez rentrer un entier i");
 		int i=console.nextInt();
-		// pour passer à la ligne apres avoir entrer la valeur
+		// pour passer ï¿½ la ligne apres avoir entrer la valeur
 		console.nextLine();
 		System.out.println(i);
 		*/
-		// la declaration de TP3 
+		
+		// la declaration des variables TP3 
+		
 	    byte b=10;
 	    short t=-17282;
-	    int i=10;
-	    long l=100L;
-	    double y=1.0D;
-	    boolean top=true;
+	    int i =10;
+	    long l =100L;
+	    double y =1.0D;
+	    boolean top =true;
 	    char c = 'c';
 	    float f=3.5F;
-	    String randomString = "Voici le résultat d’un calcul : 1+5=6";
+	    
+	    // la declaration de la chaine de caractere tout en utilisant le retour a la ligne \n pour afficher le resultat a la line suivante 
+	    
+	    String randomString = "Voici le rï¿½sultat dï¿½un calcul :\n 1+5=6";
 	    String chaine ="top";
-	    // afficher les informations 
+	    
+	    // afficher les informations de chaque variable 
 	    
 	    System.out.println(b);
 	    System.out.println(t);
 	    System.out.println(t);
 	    System.out.println(randomString);
+	    System.out.println(chaine);
+	    
 
 	}
 

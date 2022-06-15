@@ -7,29 +7,89 @@ public class ExerciceBouclesEtTests {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+        // Declaration d'un tableau de type entier 
 		int[] array = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4} ;
 		
-		//Afficher l’ensemble des éléments du tableau grâce à une boucle
+		//Combiner une boucle et un test de maniÃ¨re Ã  nâ€™afficher que valeurs des index pairs
+
+				System.out.println(" les index  pairs: ");
+				
+				for(int i=0;i<array.length;i++) {
+					if(array[i]%2 == 0) {
+						System.out.println(i);
+					}
+					
+				}
+		
+		
+		
+		//Afficher lâ€™ensemble des Ã©lÃ©ments du tableau grÃ¢ce Ã  une boucle
+		
 		for( int i=0;i< array.length;i++) {
 			System.out.println(array[i]);
 		}
-		// autre maniere Afficher l’ensemble des éléments du tableau grâce à une boucle foreach
-		 for( int i : array ){
+		
+		// autre maniere Afficher l'ensemble des Elements du tableau grace avec la boucle foreach
+		 
+		for( int i : array ){
+			
 			System.out.println(i);
 			
 		}	
-			
 		
-		//Afficher l’ensemble des éléments dans l’ordre inverse du tableau
-		   System.out.println(" l'inverse de tableau: ");
-		   for(int i=0;i< array.length/2; i++) {
-			   int tmp = array[i];
-			   array[i] = array[array.length-i-1];
-			   array[array.length-i-1] = tmp;
-			   System.out.println(Arrays.toString(array));
+		//Afficher lâ€™ensemble des Ã©lÃ©ments dans lâ€™ordre inverse du tableau
+		
+		for(int i=array.length - 1;i>=0;i--) {
+			System.out.println(array[i]);
+		}
+		
+		//Autre maniere de faire en divisant le tableau en 2 pour proceder au parcours puis faire l'affichae en tableau
+		
+		
+		System.out.println(" l'inverse de tableau: ");
+		for(int i=0;i< array.length/2; i++) {
+			int tmp = array[i];
+			array[i] = array[array.length-i-1];
+			array[array.length-i-1] = tmp;
+			System.out.println(Arrays.toString(array));
 		   }
+		   
+		// Combiner une boucle et un test de maniÃ¨re Ã  nâ€™afficher que les entiers supÃ©rieurs Ã  3
 		
+		for(int i=0;i<array.length;i++) {
+			if(array[i]> 3) {
+				System.out.println(array[i]);
+			}
+			
+		}
+		//Combiner une boucle et un test de maniÃ¨re Ã  nâ€™afficher que les entiers pairs
+		System.out.println(" les entiers pairs: ");
+		for(int i=0;i<array.length;i++) {
+			if(array[i]% 2 == 0) {
+				System.out.println(array[i]);
+			}
+			
+		}
+		//Combiner une boucle et un test de maniÃ¨re Ã  nâ€™afficher que valeurs des index pairs
+
+		System.out.println(" les index  pairs: ");
+		
+		for(int i=0;i<array.length;i++) {
+			if(array[i]%2 == 0) {
+				System.out.println(i);
+			}
+			
+		}
+		
+		//Combiner une boucle et un test de maniÃ¨re Ã  nâ€™afficher que les entiers impairs
+		System.out.println(" les entiers impairs: ");
+		for(int i=0;i<array.length;i++) {
+			if(array[i]% 2 != 0) {
+				System.out.println(array[i]);
+			}
+			
+		}
 	}
 	
 }
@@ -37,31 +97,31 @@ public class ExerciceBouclesEtTests {
 /*
  * 
  * 
- * // déclaration d'un tableau d'entiers directement initialisé de 1 à 10 : 
+ * // dï¿½claration d'un tableau d'entiers directement initialisï¿½ de 1 ï¿½ 10 : 
 		int[] tab = {1,2,3,4,5,6,7,8,9,10}; 
 	    // afficher le premier element de notre tableau
 		System.out.println(tab[1]);
 		//afficher la longueur de notre tableau 
 		System.out.println(tab.length);
-		//Affichez le dernier élément de notre tableau en utilisant la propriété length
+		//Affichez le dernier ï¿½lï¿½ment de notre tableau en utilisant la propriï¿½tï¿½ length
 		System.out.println(tab[tab.length-1]);
-		//Modifiez la valeur de l’élément d’index 4 et donnez lui la valeur 8.
+		//Modifiez la valeur de lï¿½ï¿½lï¿½ment dï¿½index 4 et donnez lui la valeur 8.
 		tab[4]=8;
 		System.out.println(tab[4]);
 		*/
 
 
 /*
-// déclaration d'un tableau de dix entiers : 
+// dï¿½claration d'un tableau de dix entiers : 
 int[] te = new int[10]; 
  
-// déclaration d'un tableau de 3 nombres réels : 
+// dï¿½claration d'un tableau de 3 nombres rï¿½els : 
 double[] tr = new double[3]; 
  
-// déclaration d'un tableau de 30 caractères : 
+// dï¿½claration d'un tableau de 30 caractï¿½res : 
 char[] tc = new char[30]; 
  
-// déclaration d'un tableau de 6 chaînes de caractères : 
+// dï¿½claration d'un tableau de 6 chaï¿½nes de caractï¿½res : 
 String[] tt = new String[6]; 
 /*
  * for( int i=0; i<=10;i++) {
