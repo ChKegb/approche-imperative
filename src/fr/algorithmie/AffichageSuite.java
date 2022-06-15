@@ -38,7 +38,7 @@ public class AffichageSuite {
 		//nombre2=console.nextInt();
 		//console.nextLine();
 		
-		// Methode affficher le nombre pair avec la boucle while
+		// Methode pour Utiliser une boucle while pour afficher tous les nombres pairs entre 0 et 10 inclus
 		
 		while(i<=nombre){
 			i++;
@@ -49,7 +49,7 @@ public class AffichageSuite {
 			
 		}
 		
-		// Methode affficher le nombre impair avec la boucle while
+		// Methode pour Utiliser une boucle while pour afficher tous les nombres impairs entre 0 et 9 inclus
 		
 		while(i<nombre){
 			i++;
