@@ -16,7 +16,7 @@ public class RechercheMin {
 			}
 			
 		}
-		System.out.println(min);
+		System.out.println("le plus petit element est :"+min);
 		
 	}
 
