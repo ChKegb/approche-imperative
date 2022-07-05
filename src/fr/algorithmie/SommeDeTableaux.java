@@ -13,7 +13,7 @@ public class SommeDeTableaux {
 		// Declaration de notre 3 eme tableau dans le cas ou les deux tableaux ont une taille identique
 		
 		int [] array =new int [array1.length];
-		System.out.println("Le tableau qui contient la somme des 2 précédents tableaux");
+		System.out.println("\n Le tableau qui contient la somme des 2 précédents tableaux : ");
 		if(array1.length==array2.length) {
 			for (int i=0;i<array1.length;i++) {
 				array[i]=array1[i]+array2[i];

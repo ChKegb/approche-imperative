@@ -18,7 +18,7 @@ public class ExerciceTableauChaines {
 		
 		//Affichez la longueur du tableau
 		
-		System.out.println(ville.length); 
+		System.out.println("\n longueur du tableau"+ville.length); 
 		
 		//Modifiez l’élément d’index 3 du tableau avec la valeur de ville "Reims"
 		
@@ -26,6 +26,7 @@ public class ExerciceTableauChaines {
 		
 		//Affichez les 5 éléments du tableau après modification
 		
+		System.out.println("\n les 5 elements du tableau ");
 		for(int i=0;i<ville.length;i++) {
 			System.out.println(ville[i]); 
 		}

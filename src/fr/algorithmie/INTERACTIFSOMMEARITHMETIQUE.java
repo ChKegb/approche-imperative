@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class INTERACTIFSOMMEARITHMETIQUE {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//Ecrire un programme qui demande un nombre à l’utilisateur puis calcule la somme de tous les entiers compris entre 1 et ce nombre
 		Scanner console=new Scanner(System.in);
 		int nb;
@@ -20,7 +20,8 @@ public class INTERACTIFSOMMEARITHMETIQUE {
 		for(int i=1 ;i<=nb;i++) {
 			resultat=resultat+i;
 		}
-		System.out.println(resultat);
+		
+		System.out.println("\n la somme de tous entiers compris entre 1 et votre nombre saisie :"+resultat);
 	}
 
 }

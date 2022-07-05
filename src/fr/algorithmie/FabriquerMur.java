@@ -22,11 +22,12 @@ public class FabriquerMur {
 	
 	static boolean fabriquerMur(int nbSmall, int nbBig, int longueur) {
 		boolean resultat = false;
-		int somme=nbSmall+(nbBig*5);
-		if(somme >= longueur) {
+		
+		if((nbSmall+(nbBig * 5)) >= longueur) {
 			return !resultat;
-		}
+		}else {
 		return resultat;
+		}
 	}
 	private static void verifier(int nbSmall, int nbBig, int longueur, boolean b){
 		if (!fabriquerMur(nbSmall, nbBig, longueur) == b) { 

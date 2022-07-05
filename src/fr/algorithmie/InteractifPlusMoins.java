@@ -3,7 +3,7 @@ import java.util.Random;
 //EXERCICE INTERACTIFPLUSMOINS
 import java.util.Scanner;
 
-public class INTERACTIFPLUSMOINS {
+public class InteractifPlusMoins {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,6 +14,7 @@ public class INTERACTIFPLUSMOINS {
 		System.out.println("Veuillez saisir un nombre  :\n");
 		nb=console.nextInt();
 		// on genere un nombre aléatoire entre 1 et 100
+		
 		nbG= new Random().nextInt(100);
 		System.out.println("\n le nombre genere est : " + nbG);
 		// comparons notre saisie avec le nombre genere  

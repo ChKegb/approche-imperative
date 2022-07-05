@@ -14,9 +14,9 @@ public class InteractifPlusGrand {
 		int max=0;
 		
 		for(int i=0;i< 10;i++) {
-			System.out.println("Veuillez saisir un nombre  :\n");
+			System.out.println("Veuillez saisir au moins 10 nombres  :\n");
 			nb=console.nextInt();
-			//console.nextLine();
+			console.nextLine();
 			if(max<nb) {
 				max=nb;
 			}

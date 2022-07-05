@@ -26,7 +26,7 @@ public class InversionContenu {
 			arrayCopy[i]=array[array.length-1-i];
 			System.out.println(arrayCopy[i] + "\t"+ array[i]);
 		
-		//Afficher l’ensemble des éléments des 2 tableaux
+		//Afficher l’ensemble des éléments des 2 tableaux en utilisant la tabulation 
 		}
 		System.out.println("Affichage  des 2 tableaux ");
 		

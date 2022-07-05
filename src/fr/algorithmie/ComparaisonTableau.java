@@ -10,17 +10,20 @@ public class ComparaisonTableau {
 		//compter le nombre d’éléments en commun dans ces 2 tableaux(nombre d'occurence )
 		
 		int nbocc=0;
-		// on parcours les deux longueurs en verifiant si i est inferieur au deux
-		
-		for (int i=0;i<array1.length && i<array2.length;i++) {
-			
-				if(array1[i]==array2[i]) {
+		// on parcours les deux longueurs en verifiant si les valeurs dans les deux tableaux sont identique
+		// parcours le tableau 1
+		for (int i=0;i<array1.length;i++){
+			// parcours le tableau 2
+			for(int j=0;j<array2.length;j++) {
+				if(array1[i]==array2[j]) {
 					nbocc++;
 				}
 			
 			
+			}
+		
 		}
-		System.out.println(nbocc); 
-	}
+		System.out.println("\n le nombre d’éléments en commun : " + nbocc); 
 
+	}
 }

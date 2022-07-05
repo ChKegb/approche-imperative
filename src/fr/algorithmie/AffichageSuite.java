@@ -53,12 +53,12 @@ public class AffichageSuite {
 		//Utiliser une boucle while pour afficher tous les nombres impairs entre 0 et 9 inclus
 		
 		System.out.println("les nombres impairs entre 0 et 10 inclus avec la boucle while : ");
-		int k=1;
-		while(k<=10) {
-		    if(k%2!=0) {
-		    	System.out.println(k);
+		int f=1;
+		while(f<=10) {
+		    if(f%2!=0) {
+		    	System.out.println(f);
 		    }
-		    k++;
+		    f++;
 			
 		}
 		
